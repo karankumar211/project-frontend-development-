@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Marte Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url("/netlix/background.jpg");
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 70vh;
+  position: relative;
+}
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.44;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+.nav {
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+}
+.nav img {
+  color: red;
+  width: 114px;
+  position: relative;
+  z-index: 10;
+}
+.nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 23px;
+  text-align: center;
+}
+.hero > :nth-child(1) {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}
+.hero :nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+.hero :nth-child(3) {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}

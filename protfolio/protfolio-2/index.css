@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
+body {
+  background-color: black;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  border: 2px solid white;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+}
+.nav ul a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+.nav ul li {
+  list-style: none;
+}
+.nav .left {
+  font-size: 2rem;
+  margin-left: 40px;
+}
+.nav .right {
+  font-size: 1rem;
+}
+.contex {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 205px;
+}

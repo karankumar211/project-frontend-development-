@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <form action="" method="post" id="form">
+        <h1>QUERY FROM</h1>
+        <br />
+        <div id="res"></div>
+        <div>
+          <label for="firstName">First Name<span>*</span></label
+          ><br />
+          <input type="text" id="firstName" name="firstName" required />
+        </div>
+        <br />
+        <div>
+          <label for="lastName">Last Name<span>*</span>:</label><br />
+          <input
+            type="text"
+            id="lastName"
+            class="inbox"
+            name="lastName"
+            required />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email<span>*</span>:</label><br />
+          <input type="email" id="email" name="email" class="input" required />
+        </div>
+        <br />
+        <div>
+          <label for="message">Enter your query :</label><br />
+          <textarea id="message" name="message" rows="5" cols="10"></textarea>
+        </div>
+        <br />
+        <div id="div">
+          <button type="submit" id="submit" value="Submit" name="btn">
+            submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
